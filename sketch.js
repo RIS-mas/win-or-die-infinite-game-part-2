@@ -32,7 +32,7 @@ path.scale=1
 
 
 //creating boy running
-boy = createSprite(400,580,20,20);
+boy = createSprite(windowWidth, windowHeight);
 boy.addAnimation("SahilRunning",boyImg);
 boy.scale=0.08;
   
