@@ -23,7 +23,7 @@ function preload(){
 
 function setup(){
   
-  createCanvas(400,650);
+  createCanvas(windowWidth, windowHeight);
 // Moving background
 path=createSprite(200,200);
 path.addImage(pathImg);
@@ -32,7 +32,7 @@ path.scale=1
 
 
 //creating boy running
-boy = createSprite(windowWidth, windowHeight);
+boy = createSprite(200,500,10,10);
 boy.addAnimation("SahilRunning",boyImg);
 boy.scale=0.08;
   
